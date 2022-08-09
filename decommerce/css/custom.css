@@ -1,0 +1,12 @@
+/*! Place your custom styles here */
+.loading {margin-top:50px;}
+.loading::before {display: inline-block;content: "";width: 30px;height: 30px;background: transparent url('../images/loading.svg') no-repeat;margin-right: 10px;vertical-align:  middle;}
+.loading-ico {margin-top:30px;}
+.loading-ico::before {display: inline-block;content: "";width: 30px;height: 30px;background: transparent url('../images/loading.svg') no-repeat;margin-right: 10px;vertical-align:  middle;}
+#genMoneroAddress {overflow-wrap: break-word; text-align: justify;}
+#qrcode {height: 250px;}
+#quantityOfTokens {padding-right: 4.78em !important;}
+.tokenSymbol {font-size: 18px !important; padding: 5px; font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif !important;}
+textarea {
+  resize: none;
+}

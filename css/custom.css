@@ -1,0 +1,6 @@
+/*! Place your custom styles here */
+h1 {font-weight: 500;}
+h1 span {text-decoration: underline; text-decoration-color: #77b900;}
+.menu-horizontal > li:not(:hover) > a,
+.menu-horizontal > li:not(:hover) > span,
+.menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {opacity: .9;}

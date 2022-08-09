@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DeCommerce</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Decentralized ecommerce platform for Web3.">
+        <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+        <link rel="alternate icon" href="images/favicon/favicon.ico">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVC4BRR423"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZVC4BRR423');
+        </script>
+
+    </head>
+    <body class=" ">
+        <a id="start"></a>
+        <div class="nav-container bg--secondary">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5 col-md-4">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="images/logo-dark.svg" />
+                                <img class="logo logo-light" alt="logo" src="images/logo-light.svg" />
+                            </a>
+                        </div>
+                        <div class="col-7 col-md-8 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu2;hidden-xs hidden-sm">
+                                <i class="icon icon--sm stack-interface stack-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </div>
+            <!--end bar-->
+            <nav id="menu2" class="bar bar-2 hidden-xs" data-scroll-class='100vh:pos-fixed'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 text-center text-left-sm hidden-xs order-lg-2">
+                            <div class="bar__module">
+                                <a href="index.html">
+                                    <img class="logo logo-dark" alt="logo" src="images/logo-dark.svg" />
+                                    <img class="logo logo-light" alt="logo" src="images/logo-light.svg" />
+                                </a>
+                            </div>
+                            <!--end module-->
+                        </div>
+                        <div class="col-lg-4 col-md-6 order-lg-1">
+                            <div class="bar__module">
+                                <ul class="menu-horizontal text-left">
+                                    <li>
+                                        <a class="inner-link" href="#product">Product</a>
+                                    </li>
+                                    <li>
+                                        <a class="inner-link" href="#technology">Technology</a>
+                                    </li>
+                                    <li>
+                                        <a class="inner-link" href="helpdesk.html">Help Desk</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end module-->
+                        </div>
+                        <div class="col-lg-4 col-md-6 text-right text-left-xs text-left-sm order-lg-3">
+                            <div class="bar__module">
+                                <a class="btn btn--sm type--uppercase" target="_blank" href="try.html">
+                                    <span class="btn__text">
+                                        Try Out ↗
+                                    </span>
+                                </a>
+                                <a class="btn btn--sm btn--primary type--uppercase" href="payment.html">
+                                    <span class="btn__text">
+                                        Buy DeCommerce
+                                    </span>
+                                    <!-- <span class="label">$499</span> -->
+                                </a>
+                            </div>
+                            <!--end module-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </nav>
+            <!--end bar-->
+        </div>
+        <div class="main-container">
+            <section id="product" class="text-center bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h2>Decentralized ecommerce platform &mdash; <span class="color--primary">for Web3</span></h2>
+                            <p class="lead">Allows people to transact business without middlemen. No Middleman, no Bank, no Big Tech, no Government.</p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="feature feature-2 boxed boxed--border">
+                                <!-- <i class="icon icon-Clock-Back color--primary"></i> -->
+                                <img src="images/p2p-web.svg" alt="Peer-to-peer web" style="height: 60px;">
+                                <div class="feature__body">
+                                    <h4>Peer-to-peer web</h4>
+                                    <ul>
+                                        <li><span class="checkmark color--primary"></span><span>Distributed web (Hosted on IPFS)</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>100% Availability guarantee</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>Can't be shutdown</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>Can't be hacked</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>No DDoS attacks</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-2 boxed boxed--border">
+                                <!-- <i class="icon icon-Duplicate-Window color--primary"></i> -->
+                                <img src="images/p2p-payments.svg" alt="Peer-to-peer payments" style="height: 60px;">
+                                <div class="feature__body">
+                                    <h4>Peer-to-peer payments</h4>
+                                    <ul>
+                                        <li><span class="checkmark color--primary"></span><span>Payments straight to your wallet</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>No middleman, No bank needed</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>100% Autonomous ecommerce</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>No permissions needed</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>Digital dollar & euro later</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-2 boxed boxed--border">
+                                <!-- <i class="icon icon-Life-Jacket color--primary"></i> -->
+                                <img src="images/blockchain.svg" alt="Blockchain technology" style="height: 60px;">
+                                <div class="feature__body">
+                                    <h4>Blockchain technology</h4>
+                                    <ul>
+                                        <li><span class="checkmark color--primary"></span><span>Operational costs are dirt cheap</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>Censorship resistant ecommerce</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>Resilient access to data</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>No server needed</span></li>
+                                        <li><span class="checkmark color--primary"></span><span>NFT domains</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-9">
+                            <div class="bg--dark box-shadow-wide">
+                                <a target="_blank" href="try.html">
+                                    <img alt="Image" src="images/decommerce.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="space--xxs bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="modal-instance">
+                                <a class="btn type--uppercase modal-trigger" href="#">
+                                    <span class="btn__text">
+                                        &#9654; Watch Overview
+                                    </span>
+                                </a>
+                                <div class="modal-container">
+                                    <div class="modal-content bg-dark" data-width="60%" data-height="60%">
+                                        <iframe data-src="https://www.youtube.com/embed/?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
+                                    </div>
+                                    <!--end of modal-content-->
+                                </div>
+                                <!--end of modal-container-->
+                            </div>
+                            <!--end of modal instance-->
+                            <span class="block--xs">(Soon)</span>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center cta cta-4 space--xxs border--bottom imagebg" data-gradient-bg="#275e5f,#2c9693,#9bbebd"><canvas id="granim-0" width="1518" height="81"></canvas>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="label label--inline">Hot!</span>
+                            <span>Presale - We prepare an ICO.  Join the
+                                <a href="ico.html">waiting list</a>!</span>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 col-lg-10">
+                            <h2>Decentralized ecommerce</h2>
+                            <p class="lead">
+                                Allows users to process transactions without any centralized control, which charges high fees and can also block the transactions. This is possible thanks to blockchain technology and smart contracts.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="switchable ">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 text-center">
+                            <img alt="Image" class="border--round box-shadow-wide" src="images/decentralization-diagram.svg">
+                            <span>DeCommerce is duplicated on thousands of IPFS nodes worldwide<br> 
+                                &mdash;  hence it can't be shut down even by law enforcement.
+                            </span>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <h3>Setting Up DeCommerce</h3>
+                            <ol class="process-3">
+                                <li class="process_item">
+                                    <div class="process__number">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="process__body">
+                                        <h4>Set an email address & cryptocurrency address (XMR, BTC, ETH, USDT)</h4>
+
+                                        <p>Payments straight to your wallet. No middleman, No bank included in the transaction.</p>
+                                        <p>Orders from the store are sent directly at your email address in the format:
+                                            <br><br>
+                                            <strong>Products, Total, Wallet address, Email, Name, Address, Zip, City, State, Country</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="process_item">
+                                    <div class="process__number">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="process__body">
+                                        <h4>Add products & categories</h4>
+                                        <p>
+                                            Edit the JSON file. <br><br>
+                                            <strong>"id":"1","name":"Your product","description":"Some description","price":"1.159"...</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="process_item">
+                                    <div class="process__number">
+                                        <span>3</span>
+                                    </div>
+                                    <div class="process__body">
+                                        <h4>Add content to the website</h4>
+                                        <p>
+                                            Simply edit a html file in your text editor.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="process_item">
+                                    <div class="process__number">
+                                        <span>4</span>
+                                    </div>
+                                    <div class="process__body">
+                                        <h4>Upload on the IPFS network</h4>
+                                        <p>
+                                            Upload DeCommerce on the IPFS network using a pinning service like <a target="_blank" href="https://www.pinata.cloud/">pinata.cloud ↗</a> or <a target="_blank" href="https://filebase.com/">filebase.com ↗</a> for free.
+                                        </p>
+                                        <p>
+                                            Or configure your own <a target="_blank" href="https://docs.ipfs.io/how-to/websites-on-ipfs/single-page-website/#install-ipfs-desktop">local ipfs node ↗</a>.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="process_item">
+                                    <div class="process__number">
+                                        <span>5</span>
+                                    </div>
+                                    <div class="process__body">
+                                        <h4>Set up a domain</h4>
+                                        <p>
+                                            This is completely optional. <br><br>
+                                            Go to <a target="_blank" href="https://unstoppabledomains.com/">unstoppabledomains.com ↗</a> and register a NFT domain.
+                                        </p>
+                                        <h5 style="margin-bottom: 0px">TIP</h5>
+                                        <p>You can redirect a standard domain (.com), but of course, it is the weakest point &mdash; <a target="_blank" href="https://www.godaddy.com/">godaddy.com ↗</a>.</p>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="bg--dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="text-block">
+                                <h4>Frequently Asked Questions</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-block">
+                                <h5>What is included?</h5>
+                                <p>
+                                    DeCommerce with a Quickstart guide & User's guide how to set up your decentralized store.
+                                </p>
+                            </div>
+                            <div class="text-block">
+                                <h5>Once I purchase DeCommerce. What next?</h5>
+                                <p>
+                                    Enter your products, categories, images. Enter your email & wallet address. Upload DeCommerce on the IPFS network. You are ready to go.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-block">
+                                <h5>Can I host my decentralized store for free?</h5>
+                                <p>
+                                    Yes, you can upload DeCommerce on ipfs using pinning service like <a target="_blank" href="https://www.pinata.cloud/">pinata.cloud</a> or <a target="_blank" href="https://filebase.com/">filebase.com</a> for FREE.
+                                </p>
+                            </div>
+                            <div class="text-block">
+                                <h5>Do you offer customization?</h5>
+                                <p>
+                                    Yes. We can help you to customize your store. Please note. This is a paid service. The price depends on your requirements and it is a Pay per Hour. We charge $50/hour.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section id="technology" class="text-center bg--secondary">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-8">
+                            <h2>Underlying technology</h2>
+                            <p class="lead">
+                                DeCommerce is designed to take advantages of all these three Peer-to-Peer technologies.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="feature">
+                                <h4>Peer-to-peer web</h4>
+                                <p>
+                                    IPFS is a distributed system for storing and accessing files, websites, applications, and data. Whether you're storing files on your own local node or one operated by a pinning service or IPFS-enabled app. It gets replicated on thousands of computers around the world. This means files stored on IPFS are resistant to tampering and censorship.
+                                    <br>
+                                    <br>
+                                    <strong>Learn more:</strong> <a target="_blank" href="https://ipfs.io/">ipfs.io ↗</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature">
+                                <h4>Peer-to-peer payments</h4>
+                                <p>
+                                    Payments for goods, services straight to your wallet. You can accept payments from your customers in less than 5 minutes - no middleman or bank included. You can accept following crypto currencies: Monero (XMR), Bitcoin (BTC), Ethereum (ETH), Tether (USDT).
+                                    <br>
+                                    <br>
+                                    <strong>Learn more:</strong> <a target="_blank" href="https://www.getmonero.org/">getmonero.org ↗</a>, <a target="_blank" href="https://bitcoin.org/">bitcoin.org ↗</a>, <a target="_blank" href="https://ethereum.org/">ethereum.org ↗</a>, <a target="_blank" href="https://tether.to/">tether.to ↗</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature">
+                                <h4>NFT Domains</h4>
+                                <p>
+                                    Traditional DNS has two points of failure—domain names require centralized custodians and content is stored on servers controlled by one company, meaning websites can be taken down. Unstoppable Domains builds domain registries on blockchains. These domains are stored in users wallets.
+                                    <br>
+                                    <br>
+                                    <strong>Learn more:</strong> <a target="_blank" href="https://unstoppabledomains.com/">unstoppabledomains.com ↗</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-left bg--secondary">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 col-lg-12">
+                            <h3>About DeCommerce</h3>
+                            <p>DeCommerce is a software (like WooCommerce, PrestaShop etc.) allows you to run fully autonomous ecommerce store. It leverages the blockchain technologies to let users connect, transact, and own all their interactions without relying on a centralized infrastructure in multiple areas:</p>
+                            <ul>
+                                <li>- Hosted on IPFS</li>
+                                <li>- Crypto payments</li>
+                                <li>- NFT Domains</li>
+                            </ul>
+                            <p>    
+                                DeCommerce has no backend like standard CMS systems. The settings are made in the configuration file. Here you can set for example your bitcoin address to receive payments, menu links etc. You can add products by editing the JSON file.
+                                <br> <br>
+                                After everything is set, you can upload your website on the IPFS network, and it will work always and forever. To upload your website on the IPFS network you can use a pinning service like https://www.pinata.cloud/, or you can run your own IPFS node like IPFS Desktop.
+                                <br> <br>
+                                You don't need maintain a server, or database and things around due to it's maintenance-free nature.
+                                <br> <br>
+                                The main difference with other CMS is that, when you need to make a change, you have to upload the website once again (due to it's static character), and you get a new CID because you now have different content. This process takes less than 5 minutes. After the upload you have to redirect your NFT domain to this new CID, or you can use IPNS, or DNSLink. With it, you can create a single, stable address that points to the CID for the latest version of your website.
+                            </p>
+                            <br>
+                            <b>Advantages</b>
+                            <ul>
+                                <li>Can't be shutdown (written in Blockchain)</li>
+                                <li>Can't be hacked (works similar to a static website)</li>
+                                <li>No DDoS attacks (works similar to BitTorrent)</li>
+                                <li>100% Availability guarantee (duplicates around the World)</li>
+                                <li>No server needed (just upload files on the IPFS)</li>
+                                <li>No database needed (everything runs inside the browser)</li>
+                                <li>No permissions, no third party included (Only you and your customers)</li>
+                                <li>100% Autonomous ecommerce (Once set, it runs always and forever)</li>
+                                <li>Crypto payments (No bank needed)</li>
+                                <li>Privacy coin (Monero) to maintain privacy and anonymity in tranzactions</li>
+                                <li>Stable coin (Tether) to maintain stable prices pegged to USD</li>
+                            </ul>
+                            <br>
+                            <b>Operating costs</b>
+                            <ul>
+                                <li>FREE, if you can set and run your own IPFS node like <a target="_blank" href="https://docs.ipfs.io/install/ipfs-desktop/">IPFS Desktop</a></li>
+                                <li>Typically, it will cost up to $1/month for IPFS Pinning service like <a href="https://www.pinata.cloud/" target="_blank">Pinata*</a></li>
+                                <li>Typically, it will cost up to $1-$3/month for Storage like <a href="https://aws.amazon.com/s3/" target="_blank">Amazon AWS**</a></li>
+                            </ul>
+                            <i>* Even for a heavy usage 1 million customers per month.</i><br>
+                            <i>** Infrastructure of Amazon is centralized. It can be easily shut down by Amazon.</i>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Censorship resistant ecommerce</h3>
+                            <p>Censorship resistance is essential in many nations where governments enforce rigid laws and restrictions. As long as these restrictions control what businesses can sell or for what individuals can spend their funds, true freedom is unattainable. Therefore, censorship resistance is ideal for anyone who can't freely do business or perform transactions without government or third-party influence.</p>
+                            <br>
+                            <h3>Hosted on IPFS (Distributed web)</h3>
+                            <p>The IPFS is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS allows users to host and receive data in a manner similar to BitTorrent. As opposed to a centrally located server, IPFS is built around a decentralized system of user-operators who hold a portion of the overall data, creating a resilient system of file storage and sharing. Any user in the network can serve a file by its content address, and other peers in the network can find and request that content from any node who has it using a distributed hash table.</p>
+                            <h4>Today's web is inefficient and expensive</h4>
+                            <p>HTTP downloads files from one server at a time — but peer-to-peer IPFS retrieves pieces from multiple nodes at once, enabling substantial bandwidth savings. With&nbsp;up to 60% savings for video, IPFS makes it possible to efficiently distribute high volumes of data without duplication.</p>
+                            <h4>Today's web can't preserve humanity's history</h4>
+                            <p>The average lifespan of a web page is 100 days&nbsp;before it's gone forever. The medium of our era shouldn't be this fragile. IPFS makes it simple to set up resilient networks for mirroring data, and thanks to content addressing, files stored using IPFS are automatically versioned.</p>
+                            <h4>Today's web is centralized, limiting opportunity</h4>
+                            <p>The Internet has turbocharged innovation by being one of the great equalizers in human history — but increasing consolidation of control threatens that progress. IPFS stays true to the original vision of an open, flat web by delivering technology to make that vision a reality.</p>
+                            <h4>Today's web is addicted to the backbone</h4>
+                            <p>IPFS powers the creation of diversely resilient networks that enable persistent availability — with or without internet backbone connectivity. This means better connectivity for the developing world, during natural disasters, or just when you're on flaky coffee shop wi-fi.</p>
+                            <h4>How IPFS works</h4>
+                            <p>When you add a file to IPFS, your file is split into smaller chunks, cryptographically hashed, and given a&nbsp;unique fingerprint&nbsp;called a&nbsp;content identifier&nbsp;(CID). This CID acts as a permanent record of your file as it exists at that point in time.</p>
+                            <p>When other nodes&nbsp;look up your file, they ask their peer nodes who's storing the content referenced by the file's CID. When they view or download your file, they cache a copy — and become another provider of your content until their cache is cleared.</p>
+                            <p>A node can&nbsp;pin content&nbsp;in order to keep (and provide) it forever, or discard content it hasn't used in a while to save space. This means each node in the network&nbsp;stores only content it is interested in, plus some indexing information that helps figure out which node is storing what.</p>
+                            <p>If you add a new version of your file to IPFS, its cryptographic hash is different, and so it gets a new CID. This means&nbsp;files stored on IPFS are resistant to tampering and censorship&nbsp;— any changes to a file don't overwrite the original, and common chunks across files can be reused in order to minimize storage costs.</p>
+                            <p>However, this doesn't mean you need to remember a long string of CIDs — IPFS can find the latest version of your file using the&nbsp;IPNS&nbsp;decentralized naming system, and&nbsp;DNSLink&nbsp;can be used to map CIDs to&nbsp;human-readable DNS names.</p>
+                            <i>Find out more: <a target="_blank" href="https://ipfs.io/">https://ipfs.io/</a></i>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Crypto payments</h3>
+                            <h4>Payments for goods, services straight to your wallet</h4>
+                            <p>You can accept payments from your customers in less than 5 minutes - no middleman included:</p>
+                            <ul>
+                                <li>- Open a cryptocurrency wallet address</li>
+                                <li>- Enter the wallet address in the decomerce's config file</li>
+                            </ul>
+                            <br>
+                            <h4>You can accept following crypto currenciecs</h4>
+                            <h4>Monero (XMR)</h4>
+                            <p>Secure, private, untraceable money. Monero is a decentralized cryptocurrency. It uses a public distributed ledger with privacy-enhancing technologies that obfuscate transactions to achieve anonymity and fungibility. Observers cannot decipher addresses trading monero, transaction amounts, address balances, or transaction histories.</p>
+                            <i>Find out more: <a target="_blank" href="https://getmonero.org/">https://getmonero.org/</a></i>
+                            <br>
+                            <br>
+                            <h4>Bitcoin (BTC)</h4>
+                            <p>Open source P2P money. Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network.&nbsp;Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.</p>
+                            <i>Find out more: <a target="_blank" href="https://bitcoin.org/">https://bitcoin.org/</a></i>
+                            <br>
+                            <br>
+                            <h4>Ethereum (ETH)</h4>
+                            <p>Ethereum is open access to digital money and data-friendly services for everyone – no matter your background or location. It's a community-built technology behind the cryptocurrency ether (ETH) and thousands of applications you can use today.</p>
+                            <i>Find out more: <a target="_blank" href="https://ethereum.org/">https://ethereum.org/</a></i>
+                            <br>
+                            <br>
+                            <h4>Tether (USDT)</h4>
+                            <p>Stable coin launched in 2014, Tether tokens (USD₮) pioneered the stablecoin model and are the most widely traded. All Tether tokens  are pegged at 1-to-1 with a matching fiat currency and are backed 100% by Tether’s reserves.</p>
+                            <i>Find out more: <a target="_blank" href="https://tether.to/">https://tether.to/</a></i>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>NFT domains (Unstoppable Domains)</h3>
+                            <p>NFT Domains are new web extensions (like .com or .de) launched as smart contracts on public blockchains. These domains are stored in a wallet by the owner, much like a cryptocurrency, and no third party can take them away. Pay once, and you own the domain for life, with&nbsp;no renewal fees.</p>
+                            <p>Self-custody&nbsp;is one of the most important features of an NFT Domain. This is what makes your domain decentralized - This is what gives you complete control over your domain!</p>
+                            <p>A self-custody solution is possible because your domain is an asset on the blockchain and stored like a cryptocurrency in your wallet. This custody method gives your&nbsp;NFT Domain&nbsp;“superpowers” that traditional domains do not have.</p>
+                            <br>
+                            <b>Due to the self-custody nature of your blockchain domain:</b>
+                            <ul>
+                                <li>- Can not be seized by a third party</li>
+                                <li>- Can enable decentralized websites</li>
+                                <li>- It can be transferred around the world in seconds without needing permission from any third party</li>
+                                <li>- It gives the owner sole control and access to domain management features - adding crypto addresses and pointing content to your domain</li>
+                            </ul>
+                            <br>
+                            <h4>Replacing cryptocurrency addresses with a human-readable name</h4>
+                            <p>You control the domain, so you are the only person able to associate cryptocurrencies with it. Input your cryptocurrency addresses on the blockchain itself. When someone types your domain name (for example; yourname.crypto) into an integrated wallet, the wallet looks up that domain on the blockchain finds the appropriate address, and sends. It’s that simple.</p>
+                            <br>
+                            <h4>Is an Unstoppable Domain fully decentralized once it's minted?</h4>
+                            <p>The domains once they are minted they will live in your crypto wallet as an NFT (Zilliqa blockchain for .zil domains and Ethereum blockchain for all other TLDs).</p>
+                            <p>All the management of the domains is via Smart Contract and in order to write or perform any changes, transfers, enable or disable features, etc, it would require a signature and a transaction from the wallet address owning the domain. &nbsp;If you try to manage a domain with a different wallet, you would simply get an error message asking you to sign the transaction with the correct wallet.</p>
+
+                            <p>Unstoppable Domains has no control of your domains after they are minted and cannot block/restrict any access to the domain. You own the private keys of the wallet storing your domain and nobody will be able to take your domain/website/content/settings away from you.</p>
+                            <i>Find out more: <a target="_blank" href="https://unstoppabledomains.com/">https://unstoppabledomains.com/</a></i>
+                            <br>
+                            <br>
+                            <i>* NFT Domains are not required by DeCommerce. You can use standard domains (.com, .de). But in this case your domain can be shut down by authority.</i>
+                            <br>
+
+
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="switchable switchable--switch">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="text-center">Roadmap</h2>
+                            <p class="lead text-center">
+                                Our roadmap for 2022 and beyond.
+                            </p>
+                            <div class="process-1">
+                                <div class="process__item">
+                                    <h4>Company established 2022
+                                        <br> 3 founding members</h4>
+                                    <p>
+                                        First few months will be about the growth. We will try to give our product into as many hands as possible.
+                                    </p>
+                                </div>
+                                <div class="process__item">
+                                    <h4>We'll working on improvements</h4>
+                                    <p>
+                                        Implementation of different payment methods, implementation of language translations and much more.
+                                    </p>
+                                </div>
+                                <div class="process__item">
+                                    <h4>Initial Coin Offering
+                                        <br> - Raising capital</h4>
+                                    <p>
+                                        Once we prove our concept we'll publish a white paper to fund growth.
+                                    </p>
+                                </div>
+                                <div class="process__item">
+                                    <h4>Product Ecosystem</h4>
+                                    <p>
+                                        We will build an ecosystem around the product. Marketplace for extensions, themes. API for external cryptocurrency exchanges so users can pay for the product in different cryptocurrencies and much more.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--end roadmap-->
+                        </div>
+                    </div>
+
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="switchable switchable--switch">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="text-center">Changelog</h2>
+                            <div class="boxed boxed--border  bg--secondary boxed--lg">
+                                <h5>All notable changes to this project will be documented here.</h5>
+                                <br>
+                                <h6>## [1.0.0] - 2022-05-20</h6>
+                                <ul>
+                                    <li>- Ready to go public.</li>
+                                </ul>
+
+
+                            </div>
+                            <!--end roadmap-->
+                        </div>
+                    </div>
+
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center bg--secondary space--xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-inline list-inline--images">
+                                <li>
+                                    <img alt="Image" src="images/web3.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="images/ipfs.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="images/crypto.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="images/pinata.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="images/unstoppable.png" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6">
+                            <div class="cta">
+                                <p class="lead">
+                                    Each purchase of DeCommerce comes with six months free support &mdash; and a lifetime of free content and bug-fix updates.
+                                </p>
+                                <a class="btn btn--primary type--uppercase" href="payment.html">
+                                    <span class="btn__text">
+                                        Buy DeCommerce
+                                    </span>
+                                    <span class="label">$499</span>
+                                </a>
+                                <p class="type--fine-print">or try out
+                                    <a target="_blank" href="try.html">DeCommerce ↗</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <footer id="contact" class="footer-3 text-center-xs space--xs ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-left text-center-xs">
+                            <img alt="Image" class="logo" style="height: 18px;" src="images/logo-dark.svg" />
+                            <ul class="list-inline list--hover">
+                                <li class="list-inline-item">
+                                    <a href="helpdesk.html">
+                                        <span class="type--fine-print">Help Desk</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://app.element.io/#/room/#DeCommerce:matrix.org">
+                                        <span class="type--fine-print">Join us on [matrix]</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-right text-center-xs">
+                            <a href="https://www.ivyca.com/">
+                                <img src="images/ivyca.png" alt="Ivyca" style="height: 27px; margin: 10px 0px;">
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-md-6 text-left text-center-xs">
+                            <p class="type--fine-print" style="font-size: 13px;">
+                                Decentralized ecommerce platform for Web3
+                            </p>
+                        </div>
+                        <div class="col-md-6 text-right text-center-xs">
+                            <span class="type--fine-print">&copy;
+                                <span class="update-year"></span> Ivyca, Inc.</span>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </footer>
+        </div>
+        <!--<div class="loader"></div>-->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/flickity.min.js"></script>
+        <script src="js/easypiechart.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/granim.min.js"></script>
+        <script src="js/jquery.steps.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
