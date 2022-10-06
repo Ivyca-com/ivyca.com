@@ -1141,7 +1141,7 @@ ul:last-child {
     display: inline-block;
   }
   .menu-horizontal > li:not(:last-child) {
-    margin-right: 1.85714286em;
+    margin-right: 3.85714286em;
   }
   .menu-vertical {
     display: inline-block;
@@ -4761,7 +4761,7 @@ section.parallax .row .background-image-holder {
 }
 @media all and (min-width: 990px) {
   .menu-horizontal li:not(:last-child) {
-    margin-right: 1.23809524em;
+    margin-right: 3.23809524em;
   }
   .bar__module:not(:only-child) .menu-horizontal {
     top: 0;
